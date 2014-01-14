@@ -18,6 +18,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //ex.1
+    CGRect myLabel = CGRectMake(20, 60, 280, 22);
+    UILabel *label = [[UILabel alloc] initWithFrame:myLabel];
+    label.backgroundColor = [UIColor grayColor];
+    label.text = @"Hello world";
+    
+    //ex.2
+    
+    
+    //ex.3
+    
+    //ex.4
+    
 }
 
 - (void)didReceiveMemoryWarning
